@@ -1,0 +1,9 @@
+C:\MIDI_Project\Base\Midi\bin\Debug\HumanMusic.exe.config
+C:\MIDI_Project\Base\Midi\bin\Debug\HumanMusic.exe
+C:\MIDI_Project\Base\Midi\bin\Debug\HumanMusic.pdb
+C:\MIDI_Project\Base\Midi\obj\Debug\minimal.csprojAssemblyReference.cache
+C:\MIDI_Project\Base\Midi\obj\Debug\humanmusic.Form1.resources
+C:\MIDI_Project\Base\Midi\obj\Debug\minimal.csproj.GenerateResource.cache
+C:\MIDI_Project\Base\Midi\obj\Debug\minimal.csproj.CoreCompileInputs.cache
+C:\MIDI_Project\Base\Midi\obj\Debug\HumanMusic.exe
+C:\MIDI_Project\Base\Midi\obj\Debug\HumanMusic.pdb

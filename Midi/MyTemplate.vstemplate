@@ -1,0 +1,43 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Midi</Name>
+    <Description>Midi Project Quick Start</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Midi</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="minimal.csproj" File="minimal.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Midi.cs">Midi.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MidiManager.cs">MidiManager.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MidiWriter.cs">MidiWriter.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Recorder.cs">Recorder.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Rng.cs">Rng.cs</ProjectItem>
+      <Folder Name="SheetMusic" TargetFolderName="SheetMusic">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Bar.cs">Bar.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Chord.cs">Chord.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Instruments.cs">Instruments.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MovementInfo.cs">MovementInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Note.cs">Note.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="PitchBend.cs">PitchBend.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SongInfo.cs">SongInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Tempo.cs">Tempo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="TimeSignature.cs">TimeSignature.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Track.cs">Track.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
